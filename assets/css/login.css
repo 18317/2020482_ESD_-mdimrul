@@ -1,0 +1,101 @@
+/*login*/
+body1
+{
+	background-image: url('../images/main.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.card {
+    background: #ffffff none repeat scroll 0 0;
+    margin: 15px 0;
+    padding: 20px;
+    border: 0 solid #e7e7e7;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+.login-content {
+	margin: 10vh 0;
+}
+.login-form {
+  background: #ffffff;
+  padding: 30px 30px 20px;
+  border-radius: 2px;
+}
+.login-form h4 {
+  color: #455a64;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.login-form .btn {
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 15px;
+  border: 0px;
+}
+.login-form label {
+  color: #455a64;
+  text-transform: uppercase;
+}
+.login-form .btnlink {
+  color: #4680ff;
+	cursor: pointer;
+}
+.login-form .frgtpass
+{
+	float: right;
+    font-size: 12px;
+    text-transform: initial;
+}
+.logoimg
+{
+	         width: 180px;
+    height: 150px;
+    margin: auto auto 10px;
+    display: table;
+}
+#progressbar {
+  width: 0;
+  height: 5px;
+}
+#notifymessage
+{
+	margin-bottom: 0 !important;
+}
+#notificationmodal .modal-dialog {
+	    display: table;
+    min-width: 300px;
+}
+.modal-title {
+    display: inline-table;
+}
+.close {
+    color: #fff;
+    opacity: 1;
+}
+.w300
+{
+	width: 300px;
+}
+.is-invalid .invalid-feedback,
+.is-invalid .invalid-tooltip {
+  display: block;
+}
+.fa-star
+{
+	font-size: 8px;
+    vertical-align: top;
+    color: #f00;
+}
+.serverwait
+{
+	display: block !important;
+    background: transparent;
+}
+.serverwait .circular
+{
+	background: #fff;
+    border: 1px solid #000;
+    border-radius: 30px;
+}
